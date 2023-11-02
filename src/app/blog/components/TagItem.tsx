@@ -14,7 +14,7 @@ export default function TagItem({ tag }: Props) {
 
     return (
         <div
-            className={`px-[1rem] py-[0.6rem] text-[1.4rem] capitalize text-[${colour}]`}
+            className={`rounded-[1.6rem] bg-red-300/50 px-[1rem] py-[0.3rem] text-[1.4rem] capitalize text-red-900`}
         >
             {tag}
         </div>
